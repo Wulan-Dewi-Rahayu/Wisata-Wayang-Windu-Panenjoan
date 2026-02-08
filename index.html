@@ -1,1 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayang Windu Panenjoan, Pangalengan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header h1 {
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
 
+        header {
+            background: #1f3d34;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .tentang {
+            width: 85%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 25px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
+            color: #2F5D50;
+        }
+
+        .pemandangan {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .pemandangan img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        
+        .table-container {
+          width: 100%;
+          overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            min-width: 600px;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        tbody tr td {
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .lokasi iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #1f3d34;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header id="home">
+    <h1><b>Wayang Windu Panenjoan</b></h1>
+    <nav>
+        <ul>
+            <li><a href="#wwp1">Tentang Wayang Windu Panenjoan</a></li>
+            <li><a href="#wwp2">Fasilitas</a></li>
+            <li><a href="#wwp3">Pemandangan Alam</a></li>
+            <li><a href="#wwp4">Lokasi & Jam Operasional</a></li>
+            <li><a href="#wwp5">Harga Tiket & Wisata</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="tentang">
+
+    <section id="wwp1">
+        <h2>Tentang Wayang Windu Panenjoan</h2>
+        <p>
+         Wayang Windu Panenjoan adalah destinasi wisata alam di Pangalengan, menampilkan kebun teh hijau yang luas dan pemandangan pegunungan yang indah, serta udara sekitar yang sejuk. <mark>Para pengunjung dapat menikmati suasana alam, sunrise & sunset, spot foto, dll.</mark></p>
+          <details>     
+            <summary>Lebih lengkap</summary>
+              <p>Kawasan Wayang Windu Panenjoan berada di ketinggian sekitar 1.600-1.800 mdpl, membuat udara sekitar sejuk dan sering berkabut.</p>
+
+              <p>Sejarah asal nama "Wayang Windu" berasal dari nama dua Gunung Kembar yang menjadi pemandangan kawasan ini, yakni Gunung Wayang dan Gunung Windu.</p>
+          </details>
+    </section>
+
+    <section id="wwp2">
+        <h2>Fasilitas & Layanan</h2>
+        <ul>
+            <li>Pemandangan Alam & Spot Foto</li>
+            <li>Jalur Trekking & Hiking</li>
+            <li>Camping & Glamping</li>
+            <li>ATB & Outdoor Ride</li>
+            <li>Flying Fox (Wahana Adrenalin)</li>
+            <li>Fun Game/Family Game</li>
+            <li>Gazebo & Area Santai</li>
+            <li>Fasilitas Pendukung (Toilet, Mushola, Warung, Area parkir)</li>
+        </ul>
+    </section>
+
+    <section id="wwp3" class="alam">
+        <h2>Pemandangan Alam</h2>
+    <h3>Vlog Wayang Windu Panenjoan</h3>
+    <div class="video">
+        <iframe
+            src="https://www.youtube.com/embed/wVOYQHvz61Y"
+            title="Video Wayang Windu"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
+    </div>
+        
+        <h3>Views Wayang Windu Panenjoan</h3>
+        <div class="pemandangan">
+            <img src="image1.jpg" alt="Kebun teh Wayang Windu">
+            <img src="image2.jpg" alt="Gunung Wayang dan Gununh Windu">
+            <img src="image3.jpg" alt="Pemandangan Jembatan Wayang Windu Panenjoan">
+        </div>
+        
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="soundWWP.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung tag audio.
+        </audio>
+      </div>
+    </section>
+
+    <section id="wwp4">
+        <h2>Lokasi & Jam operasional</h2>
+        <p><strong>Jl. Raya Pangalengan No.42, Pangalengan, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378</strong></p>
+        <p><strong>Jam Operasional: <time>07.00 - 18.00 WIB</time></strong></p>
+        <div class="lokasi">
+            <iframe 
+                src="https://www.google.com/maps/embed/v1/place?q=%3Cimg%20src%3D%22image1.jpg%22%20alt%3D%22Kebun%20teh%20Wayang%20Windu%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22image2.jpg%22%20alt%3D%22Gunung%20Wayang%20dan%20Gunubt%20Windu%22%3E&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+<section id="wwp5">
+    <h2>Harga Tiket & Wahana</h2>
+      <div class="table-container">
+        <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Tiket & Wahana</th>
+                <th colspan="2">Harga</th>
+            </tr>
+            <tr>
+                <th>Anak-anak</th>
+                <th>Dewasa</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Tiket Masuk</td>
+                <td colspan="2">Rp15.000 – Rp20.000/orang</td>
+            </tr>
+
+            <tr>
+                <td>Parkir Motor</td>
+                <td colspan="2">Rp5.000</td>
+            </tr>
+
+            <tr>
+                <td>Parkir Mobil</td>
+                <td colspan="2">Rp10.000</td>
+            </tr>
+
+            <tr>
+                <td>Parkir Elf/Hiace</td>
+                <td colspan="2">Rp20.000</td>
+            </tr>
+
+            <tr>
+                <td>Parkir Bus</td>
+                <td colspan="2">Rp30.000 – Rp50.000</td>
+            </tr>
+
+            <tr>
+                <td>Flying Fox</td>
+                <td>Rp30.000</td>
+                <td>Rp50.000</td>
+            </tr>
+
+            <tr>
+                <td>ATV</td>
+                <td colspan="2">Rp70.000 – Rp300.000</td>
+            </tr>
+
+            <tr>
+                <td>Fun Game</td>
+                <td colspan="2">Rp35.000/ orang</td>
+            </tr>
+
+            <tr>
+                <td>Sewa Gazebo</td>
+                <td>Kecil: Rp30.000/jam</td>
+                <td>Besar: Rp50.000/jam</td>
+            </tr>
+
+            <tr>
+                <td>Camping</td>
+                <td colspan="2">Rp550.000/hari</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"><b>
+                    Harga dapat berubah seiring berjalannya waktu.</b>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    </div> 
+</section>
+
+</main>
+<footer>
+    <p>&copy; 2026 Wayang Windu Panenjoan, Pangalengan. Wulan Dewi Rahayu X-PPLG II</p>
+    <p>Kontak: <a href="mailto:info@wayangwindupanenjoan.com">info@wayangwindupanenjoan.com</a></p>
+</footer>
+
+</body>
+<!--
+1. Apa perbedaan fungsi antara tag <div> dan <section> dalam kasus yang Anda buat?
+Jawaban: <div> untuk mengelompokkan gambar, lalu tabel agar bisa di scroll, dan untuk membungkus peta. 
+-->
+
+<!--
+2. Mengapa penggunaan atribut alt pada tag <img> sangat penting dalam aspek aksesibilitas web?
+Jawaban: Karena berfungsi sebagai deskripsi gambar, jika gambar tak muncul maka akan muncul "Gunung Wayang & Gunung Windu" dll.
+-->
+
+<!--
+3. Bagaimana peran tag <meta name="viewport"> dalam membuat halaman menjadi responsive? 
+Jawaban: Berfungsi untuk menyesuaikan tampilan website sesuai layar perangkat.
+-->
+      </html>
+              
